@@ -1,5 +1,5 @@
-import { test, expect } from '@playwright/test';
-import imdbActionsTestData from './imdbActionsTestData/imdbActionsTestData.json';
+import { test } from '@playwright/test';
+import imdbActionsTestData from './imdbActionsTestData/imdbActionsTestData.json' with { type: 'json' };
 import { PoManager } from '../pageObject/PoManager';
 
 const siteUrl = process.env.SITE_URL;
