@@ -2,7 +2,7 @@ import { defineConfig, devices } from '@playwright/test';
 //import and start. Filter of env keys. check if them not "", null, undefind
 import dotenv from 'dotenv';
 dotenv.config();
-import './env-checks'; //file importing and code from file perform automatically
+import './env-checks.js'; //file importing and code from file perform automatically
 
 /**
  * See https://playwright.dev/docs/test-configuration.

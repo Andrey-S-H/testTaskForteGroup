@@ -1,6 +1,6 @@
 import { test } from '@playwright/test';
 import imdbActionsTestData from './imdbActionsTestData/imdbActionsTestData.json' with { type: 'json' };
-import { PoManager } from '../pageObject/PoManager';
+import { PoManager } from '../pageObject/PoManager.js';
 
 const siteUrl = process.env.SITE_URL;
 const filmName = imdbActionsTestData.filmToBeSearched;

@@ -1,8 +1,8 @@
 import { Page } from '@playwright/test';
-import { LanguageSelector } from './languageSelector';
-import { MainPage } from './mainPage';
-import { DetailPage } from './detailPage';
-import { TopFilmPage } from './topFilmPage';
+import { LanguageSelector } from './languageSelector.js';
+import { MainPage } from './mainPage.js';
+import { DetailPage } from './detailPage.js';
+import { TopFilmPage } from './topFilmPage.js';
 
 export class PoManager {
   private page: Page;
